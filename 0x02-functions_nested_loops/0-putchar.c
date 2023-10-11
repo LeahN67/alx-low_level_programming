@@ -7,8 +7,15 @@ include "main.h"
  */
 int main(void)
 {
-	char pt = '_putcha\n'
+	char word = '_putchar'
 	
+	for
+	{
+		(word = '_'; word <= 'r'; word++)
+
+	}
+
+	_putchar('\n')
 	putchar(pt);
 
 	return(0)
