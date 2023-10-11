@@ -1,13 +1,13 @@
-include <stdio.h>
+include "main.h"
 
 
 /**
  * main - function prints _putchar
  * return - returns 0
  */
-int main()
+int main(void)
 {
-	char pt = '_putchar'
+	char pt = '_putcha\n'
 	
 	putchar(pt);
 
