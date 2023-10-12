@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 
 /**
@@ -7,18 +7,16 @@ include "main.h"
  */
 int main(void)
 {
-	char word = '_putchar'
+	char word = '_putchar':
 	
-	for
+	for (word = '_'; word <= 'r'; word++)
 	{
-		(word = '_'; word <= 'r'; word++)
+		_putchar(word);
 
 	}
 
-	_putchar('\n')
-	putchar(pt);
-
-	return(0)
+	_putchar('\n');
+	return(0);
 }
 
 
