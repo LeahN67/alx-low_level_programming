@@ -3,9 +3,9 @@
 /**
  * print_last_digit - prints the last digit in a number
  *
- * @z: number to extract the last digit from
+ * @n: the int to check
  *
- * Return: Always 0 
+ * Return: value of the last digit
  */
 int print_last_digit(int z)
 {
@@ -20,5 +20,6 @@ int print_last_digit(int z)
 		i = -i;
 
 	_putchar(i + '0');
+
 	return (i);
 }
