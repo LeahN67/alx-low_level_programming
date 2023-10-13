@@ -9,9 +9,7 @@
  *
  * Return: sum of c and d
  */ 
-
-
-int  add(int c, int d )
+int  add(int c, int d)
 {
 	int e;
 
