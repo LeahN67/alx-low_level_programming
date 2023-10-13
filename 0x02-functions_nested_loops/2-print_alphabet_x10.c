@@ -15,6 +15,7 @@ void print_alphabet_x10(void)
 	while (j < 10)
 	{
 		char word = 'a';
+
 		while (word <= 'z')
 		{
 			_putchar(word);
