@@ -7,7 +7,7 @@
  *
  * Return: 1 if c is an uppercase, 0 otherwise
  */
-int _isdigit(int c)
+int _isupper(int c)
 {
 	if (c >= 65 && c <= 90)
 	{
