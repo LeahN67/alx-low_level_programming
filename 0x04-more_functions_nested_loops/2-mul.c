@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * mul - muplies a and b
+ * mul - multiplies a and b
  *
  * @a: integer to be multiplied by b
  *
@@ -11,7 +11,7 @@
  */
 int mul(int a, int b)
 {
-	int c:
+	int c;
 
 	c = a * b;
 
