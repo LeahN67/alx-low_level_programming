@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isalpha(int c) - checks for lowercase or uppercaser character
+ * _isalpha - checks for lowercase or uppercaser character
  *
  * @c:letter to be checked
  *
