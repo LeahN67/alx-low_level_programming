@@ -8,7 +8,9 @@
 void print_alphabet_x10(void)
 {
 	int j;
+
 	j = 0;
+
 	while (j < 10)
 	{
 		char word ='a';
