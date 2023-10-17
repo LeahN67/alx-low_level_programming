@@ -15,9 +15,10 @@ int _atoi(char *s)
 	int j = 0;
 	unsigned int result = 0;
 
-	while (!(s[j] <= '9' && s[j] >= '0' && s[j] != '\0'))
+	while (!(s[j] <= '9' && s[j] >= '0') && s[j] != '\0')
 	{
-		result = (result * 10) + (s[j] - '0');
+		if (s[i] == '-')
+			sign *= -1;
 		j++;
 	}
 
