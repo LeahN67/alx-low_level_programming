@@ -36,7 +36,7 @@ int main(void)
 
 	for (y = 0; y <= x; y++)
 	{
-		printf("%", password[y]);
+		printf("%c", password[y]);
 	}
 	return (0);
 }
