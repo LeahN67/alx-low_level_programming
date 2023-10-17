@@ -3,7 +3,7 @@
 /*
  * reset_to_98 - Entry point
  * Description: takes a pointer to an int as parameter
- * updates the value it points to 98
+ * updates the value it points to to 98
  *
  * @n: pointer to the variable to be updated.
  */
