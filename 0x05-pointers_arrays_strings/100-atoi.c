@@ -24,7 +24,7 @@ int _atoi(char *s)
 	while (s[j] <= '9' && (s[j] >= '0' && s[j] != '\0'))
 	{
 		result = (result * 10) + (s[j] - '0');
-		i++;
+		j++;
 	}
 	result *= sign;
 	return (result);
