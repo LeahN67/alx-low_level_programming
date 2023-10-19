@@ -13,7 +13,7 @@ void reserve_array(int *a, int n)
 	int y;
 	int temp;
 
-	y = x - 1;
+	y = n - 1;
 
 	for (x = 0; x < n / 2; x++)
 	{
