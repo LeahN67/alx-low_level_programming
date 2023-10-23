@@ -1,32 +1,19 @@
 #include "main.h"
 
 /**
-* _strstr - function that locates
-* @haystack: pointer to char
-* @needle: pointer to char
-* Return: 0
-*/
-
-char *_strstr(char *haystack, char *needle)
+ * print_chessboard - function prints the chessboard
+ * @a: two dimension array to be printed
+ */
+void print_chessboard(char (*a)[8])
 {
-	char *res = haystack, *fneedle = needle;
+	int x, y;
 
-	while (*haystack)
+	for (x = 0; x < 8; x++)
 	{
-		while (*needle)
+		for (y = 0; y < 8; y++)
 		{
-			if (*haystack++ != *needle++)
-			{
-				break;
-			}
+			_putchar(a[x][y]);
 		}
-		if (!*needle)
-		{
-			return (res);
-		}
-		needle = fneedle;
-		res++;
-		haystack = res;
+		_putchar('\n');
 	}
-	return (0);
 }
