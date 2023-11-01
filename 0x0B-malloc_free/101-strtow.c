@@ -9,7 +9,14 @@
  */
 void ch_free_grid(char **grid, unsigned int height)
 {
-	
+	if (grid != NULL && height != 0)
+        {
+                for (; height > 0; height--)
+                        free(grid[height]);
+                free(grid[height]);
+                free(grid);
+        }
+}	
 
 /**
  * strtow - splits a string into words.
@@ -18,14 +25,6 @@ void ch_free_grid(char **grid, unsigned int height)
  * Return: pointer of an array of integers
  */
  
- if (grid != NULL && height != 0)
-	{
-		for (; height > 0; height--)
-			free(grid[height]);
-		free(grid[height]);
-		free(grid);
-	}
-}
 char **strtow(char *str)
 {
 	char **aout;
