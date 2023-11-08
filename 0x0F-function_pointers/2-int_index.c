@@ -18,7 +18,7 @@ return (-1);
 
 for (x = 0; x < size; x++)
 {
-if (cmp(array[i]) == 1)
+if (cmp(array[x]) == 1)
 return (x);
 }
 return (-1);
